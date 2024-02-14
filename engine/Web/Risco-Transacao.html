@@ -1,0 +1,382 @@
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Risco Transação</title>
+	<!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/exemple.css">
+
+</head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <button class="col btn-outline-info">1- Previdencia</button>
+                <button class="col-2 btn-outline-warning">Score Total -> Medio</button>
+            </div>
+            <div class="row segPt">
+            <div class="row">
+                <div class="col-2">
+                    <button class=" col-12 btn-outline-info">1.1-Adesão</button>
+                    <button class="col-12 btn-outline-info">Adesão->PF</button>
+                    <button class="col-12 btn-outline-info">Adesão->PJ</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12 btn-outline-success">risco baixo<=10k</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12 btn-outline-warning">10k-medio-20K</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12  btn-outline-danger">20k-Alto-50K</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12 btn-outline-secondary ">critico>50K</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12">Risco Final</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                </div>
+              </div> 
+              <div class="row">
+                <div class="col-2">
+                    <button class="col-12 btn-outline-info">1.2-Aporte</button>
+                    <button class="col-12 btn-outline-info">Aporte->PF</button>
+                    <button class="col-12 btn-outline-info">Aporte->PJ</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12 btn-outline-success">risco baixo<=10k</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12 btn-outline-warning">10k-medio-20K</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12  btn-outline-danger">20k-Alto-50K</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12 btn-outline-secondary ">critico>50K</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12">Risco Final</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                </div>
+              </div> 
+              <div class="row">
+                <div class="col-2">
+                    <button class="col-12 btn-outline-info">1.3-Contribuição</button>
+                    <button class="col-12 btn-outline-info">Contribuição->PF</button>
+                    <button class="col-12 btn-outline-info">Contribuição->PJ</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12 btn-outline-success">risco baixo<=10k</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12 btn-outline-warning">10k-medio-20K</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12  btn-outline-danger">20k-Alto-50K</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12 btn-outline-secondary ">critico>50K</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12">Risco Final</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                </div>
+              </div> 
+              <div class="row">
+                <div class="col-2">
+                    <button class="col-12 btn-outline-info">1.4-Resgate</button>
+                    <button class="col-12 btn-outline-info">Resgate->PF</button>
+                    <button class="col-12 btn-outline-info">Resgate->PJ</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12 btn-outline-success">risco baixo<=10k</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12 btn-outline-warning">10k-medio-20K</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12  btn-outline-danger">20k-Alto-50K</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12 btn-outline-secondary ">critico>50K</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12">Risco Final</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                </div>
+              </div> 
+              <div class="row">
+                <div class="col-2">
+                    <button class="col-12 btn-outline-info">1.5-Cancelamento</button>
+                    <button class="col-12 btn-outline-info">Cancelamento-PF</button>
+                    <button class="col-12 btn-outline-info">Cancelamento-PJ</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12 btn-outline-success">risco baixo<=10k</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12 btn-outline-warning">10k-medio-20K</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12  btn-outline-danger">20k-Alto-50K</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12 btn-outline-secondary ">critico>50K</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12">Risco Final</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                </div>
+              </div> 
+            </div>
+              <div class="row">
+                <button class="col btn-outline-primary">2-Seguro Vida</button>
+                <button class="col-2 btn-outline-danger">Score Total -> Alto</button>
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <button class="col-12 btn-outline-primary">2.1-Contratação</button>
+                    <button class="col-12 btn-outline-primary">Contratação->PF</button>
+                    <button class="col-12 btn-outline-primary">Contratação->PJ</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12 btn-outline-success">risco baixo<=10k</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12 btn-outline-warning">10k-medio-20K</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12  btn-outline-danger">20k-Alto-50K</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12 btn-outline-secondary ">critico>50K</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12">Risco Final</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12 btn-outline-primary">2.2-PosContrato</button>
+                    <button class="col-12 btn-outline-primary">AltBeneficiario-PF</button>
+                    <button class="col-12 btn-outline-primary">AltBeneficiario-PJ</button>
+                    <button class="col-12 btn-outline-primary">Restituição-PF</button>
+                    <button class="col-12 btn-outline-primary">Restituição-PJ</button>
+                    <button class="col-12 btn-outline-primary">Liquidação-PF</button>
+                    <button class="col-12 btn-outline-primary">Liquidação-PJ</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12 btn-outline-success">risco baixo<=10k</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12 btn-outline-warning">10k-medio-20K</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12  btn-outline-danger">20k-Alto-50K</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12 btn-outline-secondary ">critico>50K</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12">Risco Final</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                </div>
+              </div> 
+              <div class="row">
+                <button class="col btn-outline-primary">3-Seguro Prestamista</button>
+                <button class="col-2 btn-outline-success">Score Total -> Baixo</button>
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <button class="col-12 btn-outline-primary">3.1-Contratação</button>
+                    <button class="col-12 btn-outline-primary">Contratação->PF</button>
+                    <button class="col-12 btn-outline-primary">Contratação->PJ</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12 btn-outline-success">risco baixo<=10k</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12 btn-outline-warning">10k-medio-20K</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12  btn-outline-danger">20k-Alto-50K</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12 btn-outline-secondary ">critico>50K</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12">Risco Final</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12 btn-outline-primary">3.2-PosContrato</button>
+                  
+                    <button class="col-12 btn-outline-primary">Restituição-PF</button>
+                    <button class="col-12 btn-outline-primary">Restituição-PJ</button>
+                    <button class="col-12 btn-outline-primary">Liquidação-PF</button>
+                    <button class="col-12 btn-outline-primary">Liquidação-PJ</button>
+                    <button class="col-12 btn-outline-primary">Liq.Ext.-PF</button>
+                    <button class="col-12 btn-outline-primary">Liq.Ext.-PJ</button>
+                    <button class="col-12 btn-outline-primary">Liq.Pre.-PF</button>
+                    <button class="col-12 btn-outline-primary">Liq.Pre.-PJ</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12 btn-outline-success">risco baixo<=10k</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                   
+                  
+                </div>
+                <div class="col-2">
+                    <button class="col-12 btn-outline-warning">10k-medio-20K</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12  btn-outline-danger">20k-Alto-50K</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12 btn-outline-secondary ">critico>50K</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                </div>
+                <div class="col-2">
+                    <button class="col-12">Risco Final</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                    <button class="col-12">-</button>
+                </div>
+              </div> 
+        </div>
+     
+    <!-- JavaScript and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+         </body>
+    </html>
